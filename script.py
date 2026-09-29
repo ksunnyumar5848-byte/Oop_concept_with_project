@@ -34,6 +34,19 @@ print(f"===show all information of teacher === \n name : {std_3.name} \t rollNo 
 
 
 
+ ========  Concept of constructor ======
+when a object create then  constructor are all ready call 
+
+class Employee:
+
+    def __init__(self):
+        print("hello when obj create i call ")
+        
+
+emp1=Employee()
+emp2=Employee()
+emp3=Employee()
+
 
         
 
